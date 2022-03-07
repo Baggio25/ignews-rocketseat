@@ -1,9 +1,12 @@
-import styles from "../../styles/home.module.css";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      <h2>IgNews</h2>
+      <Head>
+        <title>Ig.news | Início</title>
+      </Head>
+      <h2>Home</h2>
     </>
   );
 }
